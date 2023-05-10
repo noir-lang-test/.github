@@ -10,14 +10,14 @@ body:
     id: problem
     attributes:
       label: Problem
-      description: Describe what you feel lacking. (Supply code / step-by-step examples if applicable.)
+      description: Describe what you feel lacking. (Supply code / step-by-step examples, if applicable.)
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
       label: Happy Case
-      description: Describe how you envisioned things to work. (Supply pseudocode / step-by-step examples if applicable.)
+      description: Describe how you envision things should work. (Supply pseudocode / step-by-step examples, if applicable.)
     validations:
       required: true
   - type: textarea
