@@ -37,5 +37,5 @@ body:
       description: Core contributors are more than happy to provide support, wherever applicable.
       multiple: false
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
