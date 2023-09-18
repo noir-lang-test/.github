@@ -1,6 +1,6 @@
 name: Enhancement Plan
 description: |
-  Propose a scoped and actionable improvement.
+  Propose a scoped and actionable improvement. \n
   Start with "Ideas" instead if steps towards the improvement could be further defined.
 labels: ["enhancement"]
 body:
