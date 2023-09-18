@@ -1,5 +1,5 @@
 name: Idea Action Plan
-description: Propose the scope and steps of implementing an enhancement. Start with "Ideas" instead to request and discuss features.
+description: Outline the scope and steps for implementing an enhancement. Start with "Ideas" instead to request and discuss new features.
 labels: ["enhancement"]
 body:
   - type: markdown
