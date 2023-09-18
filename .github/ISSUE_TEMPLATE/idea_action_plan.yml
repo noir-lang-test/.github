@@ -1,5 +1,5 @@
-name: Enhancement Plan
-description: Propose a scoped and actionable improvement. Start with "Ideas" instead if steps towards the improvement could be further defined.
+name: Idea Action Plan
+description: Propose the scope and steps of implementing an enhancement. Start with "Ideas" instead to request and discuss features.
 labels: ["enhancement"]
 body:
   - type: markdown
