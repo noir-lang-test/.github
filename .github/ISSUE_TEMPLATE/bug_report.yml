@@ -5,8 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Description
         Thanks for taking the time to create the Issue and welcome to the Noir community!
+        # Description
   - type: textarea
     id: aim
     attributes:
