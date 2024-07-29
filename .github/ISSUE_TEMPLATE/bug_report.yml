@@ -11,7 +11,7 @@ body:
     id: aim
     attributes:
       label: Aim
-      description: Describe what you tried to achieve.
+      description: Describe high-level what you tried to achieve.
     validations:
       required: true
   - type: textarea
