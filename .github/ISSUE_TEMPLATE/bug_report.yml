@@ -90,7 +90,7 @@ body:
     attributes:
       label: Proving Backend Tooling & Version
       description: Type of tooling and version of the Proving Backend used
-      placeholder: "Barretenberg CLI bb 0.46.1"
+      placeholder: "Barretenberg - bb CLI - 0.46.1"
   - type: markdown
     attributes:
       value: |
