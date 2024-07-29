@@ -22,6 +22,18 @@ body:
     validations:
       required: true
   - type: dropdown
+    id: workaround
+    attributes:
+      label: Workaround
+      description: Is there a workaround for this Issue? 
+      options:
+        - "Yes"
+  - type: textarea
+    id: workaround_description
+    attributes:
+      label: Workaround Description
+      description: If yes, supplement how could the Issue be worked around.
+  - type: dropdown
     id: impact
     attributes:
       label: Project Impact
@@ -34,18 +46,6 @@ body:
     attributes:
       label: Impact Context
       description: If a nice-to-have / blocker, supplement how does this Issue affect the project.
-  - type: dropdown
-    id: workaround
-    attributes:
-      label: Workaround
-      description: Is there a workaround for this Issue? 
-      options:
-        - "Yes"
-  - type: textarea
-    id: workaround_description
-    attributes:
-      label: Workaround Description
-      description: If yes, supplement how could the Issue be worked around.
   - type: input
     id: additional
     attributes:
