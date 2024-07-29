@@ -41,7 +41,7 @@ body:
       description: Is there a workaround for this Issue? 
       options:
         - "Yes"
-  - type: input
+  - type: textarea
     id: workaround_description
     attributes:
       label: Workaround Description

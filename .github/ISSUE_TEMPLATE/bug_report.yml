@@ -58,7 +58,7 @@ body:
       description: Is there a workaround for this Issue? 
       options:
         - "Yes"
-  - type: input
+  - type: textarea
     id: workaround_description
     attributes:
       label: Workaround Description
@@ -90,7 +90,7 @@ body:
     attributes:
       label: Proving Backend Tooling & Version
       description: Type of tooling and version of the Proving Backend used
-      placeholder: "Barretenberg bb CLI 0.46.1"
+      placeholder: "Barretenberg CLI bb 0.46.1"
   - type: markdown
     attributes:
       value: |
