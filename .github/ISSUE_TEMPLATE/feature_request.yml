@@ -29,7 +29,7 @@ body:
       options:
         - "Nice-to-have"
         - "Blocker"
-  - type: textarea
+  - type: input
     id: impact_context
     attributes:
       label: Impact Context
@@ -41,12 +41,12 @@ body:
       description: Is there a workaround for this Issue? 
       options:
         - "Yes"
-  - type: textarea
+  - type: input
     id: workaround_description
     attributes:
       label: Workaround Description
       description: If yes, supplement how could the Issue be worked around.
-  - type: textarea
+  - type: input
     id: additional
     attributes:
       label: Additional Context
@@ -64,7 +64,7 @@ body:
       options:
         - "Maybe"
         - "Yes"
-  - type: textarea
+  - type: input
     id: pr-support
     attributes:
       label: Support Needs
