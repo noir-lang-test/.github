@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         # Description
-        Thanks for taking the time to create the Issue, and welcome to the Noirot family!
+        Thanks for taking the time to create the Issue and welcome to the Noir community!
   - type: textarea
     id: aim
     attributes:
@@ -38,20 +38,59 @@ body:
         2.
         3.
         4.
-  - type: markdown
+  - type: dropdown
+    id: impact
     attributes:
-      value: |
-        # Misc
+      label: Project Impact
+      description: How does this affect a project you or others are working on? 
+      options:
+        - "Nice-to-have"
+        - "Blocker"
   - type: textarea
-    id: environment
+    id: impact_context
     attributes:
-      label: Environment
-      description: Specify the versions and environment details for which the issue is occurring.
+      label: Impact Context
+      description: If a nice-to-have / blocker, supplement how does this Issue affect the project.
+  - type: dropdown
+    id: workaround
+    attributes:
+      label: Workaround
+      description: Is there a workaround for this Issue? 
+      options:
+        - "Yes"
+  - type: textarea
+    id: workaround_description
+    attributes:
+      label: Workaround Description
+      description: If yes, supplement how could the Issue be worked around.
   - type: textarea
     id: additional
     attributes:
       label: Additional Context
       description: Supplement further information if applicable.
+  - type: markdown
+    attributes:
+      value: |
+        # Environment
+        Specify your version of Noir and Proving Backend tooling used.
+  - type: input
+    id: nargo-version
+    attributes:
+      label: Nargo Version
+      description: Output of running `nargo --version`
+      placeholder: "nargo version = 0.32.0 noirc version = 0.32.0+c679f01a19b02ad2ac2287c8e699b46887f7872c (git version hash: c679f01a19b02ad2ac2287c8e699b46887f7872c, is dirty: false)"
+  - type: input
+    id: noirjs-version
+    attributes:
+      label: NoirJS Version
+      description: Version number of `noir_js` in `package.json`
+      placeholder: "0.32.0"
+  - type: input
+    id: backend-version
+    attributes:
+      label: Proving Backend Tooling & Version
+      description: Type of tooling and version of the Proving Backend used
+      placeholder: "Barretenberg bb CLI 0.46.1"
   - type: markdown
     attributes:
       value: |
@@ -62,11 +101,8 @@ body:
       label: Would you like to submit a PR for this Issue?
       description: Fellow contributors are happy to provide support where applicable.
       options:
-        - "No"
         - "Maybe"
         - "Yes"
-    validations:
-      required: true
   - type: textarea
     id: pr_support
     attributes:
