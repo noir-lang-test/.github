@@ -59,10 +59,10 @@ body:
         - "Nice-to-have"
         - "Blocker"
   - type: input
-    id: impact_context
+    id: blocker_context
     attributes:
-      label: Impact Context
-      description: If a nice-to-have / blocker, supplement how does this Issue affect the project.
+      label: Blocker Context
+      description: If a blocker, supplement how does this Issue affect the project.
   - type: input
     id: additional
     attributes:
