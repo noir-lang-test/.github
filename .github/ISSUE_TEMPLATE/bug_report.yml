@@ -13,7 +13,7 @@ body:
     id: bug
     attributes:
       label: Bug
-      description: Describe the unexpected behavior. Supply error codes and terminal logs if applicable.
+      description: Describe the unexpected behavior, with error codes and terminal logs if applicable.
     validations:
       required: true
   - type: textarea
@@ -30,25 +30,24 @@ body:
     id: nargo-version
     attributes:
       label: Nargo Version
-      description: Output from running `nargo --version`
+      description: Output from running `nargo --version`.
       placeholder: "e.g. 1.0.0-beta.20"
   - type: input
     id: noirjs-version
     attributes:
       label: NoirJS Version
-      description: Version number of `noir_js` in `package.json`
+      description: Version number of `noir_js` in `package.json`.
       placeholder: "e.g. 1.0.0-beta.20"
   - type: input
     id: backend-version
     attributes:
-      label: Proving Backend Tooling & Version
-      description: Type of tooling and version of the Proving Backend used
+      label: Proving Backend
+      description: The proving backend tooling and version used.
       placeholder: "e.g. Barretenberg bb 5.0.0-nightly.20260324"
   - type: dropdown
     id: pr_preference
     attributes:
       label: Would you like to submit a PR for this Issue?
-      description: Fellow contributors are happy to provide support where applicable.
       options:
         - "Maybe"
         - "Yes"
