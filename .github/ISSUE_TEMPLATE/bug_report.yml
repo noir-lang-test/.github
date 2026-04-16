@@ -21,7 +21,7 @@ body:
     attributes:
       label: Workaround
       description: Describe a workaround, if there is one.
-  - type: input
+  - type: textarea
     id: impact
     attributes:
       label: Project Impact
@@ -43,7 +43,7 @@ body:
     attributes:
       label: Proving Backend Tooling & Version
       description: Type of tooling and version of the Proving Backend used
-      placeholder: "e.g. Barretenberg's bb CLI 5.0.0-nightly.20260324"
+      placeholder: "e.g. Barretenberg bb 5.0.0-nightly.20260324"
   - type: dropdown
     id: pr_preference
     attributes:
